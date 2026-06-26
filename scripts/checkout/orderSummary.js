@@ -123,8 +123,8 @@ export function renderOrderSummary() {
         `.js-cart-item-container-${productId}`,
       );
       container.remove();
-
       updateCartQuantity();
+      renderPaymentSummary();
     });
   });
 
